@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go-gin/router"
+)
 
-func main(){
-	fmt.Println("fmt")
+func main() {
+	r := router.SetupRouter()
+	err := r.Run(":8090")
+	if err != nil{
+		fmt.Println(err)
+	}
 }
