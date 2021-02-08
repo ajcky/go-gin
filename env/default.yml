@@ -1,6 +1,6 @@
 databases:
    mysql:
-      host: "rm-uf63zn69702x935h5so.mysql.rds.aliyuncs.com:3306"
-      username: "qingshu_mysql"
-      password: "Qingshu520"
-      dbname: "liaoke"
+      host: "127.0.0.1:3306"
+      username: "root"
+      password: "123456"
+      dbname: "test"
