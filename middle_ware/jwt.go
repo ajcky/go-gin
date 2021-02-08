@@ -38,14 +38,14 @@ func SetJWT(ctx *gin.Context, login Login) string {
 //解析token
 func CheckJWT(ctx *gin.Context,tokenString string) {
 	if tokenString == "" {
-		ctx.JSON(http.StatusUnauthorized, gin.H{"code": 401, "msg": "权限不足"})
+		ctx.JSON(http.StatusUnauthorized, gin.H{"code": 401, "msg": "非法操作"})
 		ctx.Abort()
 		return
 	}
 
 	token, claims, err := ParseToken(tokenString)
 	if err != nil || !token.Valid {
-		ctx.JSON(http.StatusUnauthorized, gin.H{"code": 401, "msg": "权限不足"})
+		ctx.JSON(http.StatusUnauthorized, gin.H{"code": 401, "msg": "鉴权失败"})
 		ctx.Abort()
 		return
 	}
