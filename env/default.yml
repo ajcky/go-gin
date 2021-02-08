@@ -1,6 +1,6 @@
 databases:
    mysql:
-      host: "127.0.0.1:3306"
+      host: "127.0.0.1:33061"
       username: "root"
       password: "123456"
       dbname: "test"
