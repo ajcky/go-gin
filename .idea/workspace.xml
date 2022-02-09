@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b06d717e-4e49-4239-8d47-e59009df5191" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b06d717e-4e49-4239-8d47-e59009df5191" name="Default Changelist" comment="Merge branch 'master' of github.com:ajcky/go-gin&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;config/config.go">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/default.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,9 @@
     <option name="height" value="811" />
   </component>
   <component name="ProjectId" id="24r7r7t43pgUjzSv9xUEZd7Jh1V" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -94,6 +96,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -107,6 +110,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -159,6 +165,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="Merge branch 'master' of github.com:ajcky/go-gin&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;config/config.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:ajcky/go-gin&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;config/config.go" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

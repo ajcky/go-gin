@@ -1,6 +1,6 @@
 databases:
    mysql:
-      host: "10.0.224.17"
+      host: "sh-cynosdbmysql-grp-js53twc2.sql.tencentcdb.com"
       port: "3306"
       username: "root"
       password: "abc@123456"
