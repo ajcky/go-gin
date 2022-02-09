@@ -1,3 +1,3 @@
-# go-gin
+# Why Not?
 
 go run main.go

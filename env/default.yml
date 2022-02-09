@@ -1,7 +1,7 @@
 databases:
    mysql:
-      host: "127.0.0.1"
+      host: "10.0.224.17"
       port: "3306"
       username: "root"
-      password: "123456"
-      dbname: "test"
+      password: "abc@123456"
+      dbname: "db_go"
