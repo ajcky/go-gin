@@ -10,7 +10,7 @@ func InitConfig() error {
 	configViper := viper.New()
 	configViper.SetConfigName("default")
 	configViper.SetConfigType("yml")
-	configViper.AddConfigPath("./env")
+	configViper.AddConfigPath("./go-gin/env")
 	err := configViper.ReadInConfig()
 	if err != nil {
 		return err
