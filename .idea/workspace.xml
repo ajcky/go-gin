@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b06d717e-4e49-4239-8d47-e59009df5191" name="Default Changelist" comment="Merge branch 'master' of github.com:ajcky/go-gin&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;config/config.go">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/mysql.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

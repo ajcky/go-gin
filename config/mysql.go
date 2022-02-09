@@ -10,8 +10,9 @@ import (
 var DBS *gorm.DB
 
 func InitMysql() error {
-	mysql := Cfg.Get("databases.mysql").(map[string]interface{})
-	d, err := gorm.Open("mysql", fmt.Sprintf("%s:%s@tcp(%s)/%s?charset=utf8&parseTime=True&timeout=5s&loc=Asia%%2FShanghai", mysql["username"], mysql["password"], mysql["host"], mysql["dbname"]))
+	//mysql := Cfg.Get("databases.mysql").(map[string]interface{})
+	//d, err := gorm.Open("mysql", fmt.Sprintf("%s:%s@tcp(%s)/%s?charset=utf8&parseTime=True&timeout=5s&loc=Asia%%2FShanghai", mysql["username"], mysql["password"], mysql["host"], mysql["dbname"]))
+	d, err := gorm.Open("mysql", fmt.Sprintf("%s:%s@tcp(%s)/%s?charset=utf8&parseTime=True&timeout=5s&loc=Asia%%2FShanghai","root", "abc@123456","10.0.224.17:3306", "db_go"))
 	if err != nil {
 		return err
 	}

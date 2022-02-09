@@ -7,11 +7,11 @@ import (
 )
 
 func main() {
-	err := config.InitConfig()
-	if err != nil {
-		fmt.Println(err)
-	}
-	err = config.InitMysql()
+	//err := config.InitConfig()
+	//if err != nil {
+	//	fmt.Println(err)
+	//}
+	err := config.InitMysql()
 	if err != nil {
 		fmt.Println(err)
 	}
