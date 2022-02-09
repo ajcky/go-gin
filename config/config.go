@@ -9,7 +9,7 @@ var Cfg *viper.Viper
 func InitConfig() error {
 	configViper := viper.New()
 	configViper.SetConfigName("default")
-	configViper.SetConfigType("yml")
+	configViper.SetConfigType("yaml")
 	configViper.AddConfigPath("./")
 	err := configViper.ReadInConfig()
 	if err != nil {

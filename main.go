@@ -16,7 +16,7 @@ func main() {
 		fmt.Println(err)
 	}
 	r := router.SetupRouter()
-	err = r.Run(":8090")
+	err = r.Run(":80")
 	if err != nil {
 		fmt.Println(err)
 	}
